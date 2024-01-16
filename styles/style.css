@@ -6,16 +6,21 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .header-section{
     max-width: 1250px;
     margin:0 auto;
     display: flex;
+    
 }
 .nav-container{
+    
     width: 50%;
-    min-height: 20px;
+    min-height: 40px;
     display: flex;
     align-items: center;
     
@@ -26,6 +31,7 @@ body{
     width: 48px;
     height: 56.008px;
     flex-shrink: 0;
+    object-fit: cover;
 }
 .nav-container p{
 font-size: 20px;
@@ -50,11 +56,183 @@ font-size: 20px;
     
 }
 
-.banner-section{
-max-width: 1250px;
-margin: 0 auto;
-width: 100%;
+
+
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 70px;
+
 }
-.banner-image-container{
-    width: 100%;
+.banner-container{
+    background-image:
+    linear-gradient(to bottom, rgba(1, 4, 18, 0.616), rgba(3, 0, 2, 0.518)),
+    url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    height: 500px; 
+    border-radius: 16px;
+}
+
+.banner-text{
+    text-align: center;
+    padding-top: 8%;
+}
+.banner-text h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.banner-text p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+.input-type{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+input{
+    width: 174px;
+    height: 47px;
+    flex-shrink: 0;
+    padding-left: 20px;
+    border-radius: 8px; 
+}
+
+button{
+    width: 174px;
+    height: 47px;
+    padding-left: 20px;
+    border-radius: 8px; 
+    background: #FF5400; 
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.input-type button{
+    input{
+        width: 174px;
+        height: 47px;
+        flex-shrink: 0;
+        padding-left: 20px;
+        border-radius: 8px; 
+    }
+    
+    button{
+        width: 174px;
+        height: 47px;
+        padding-left: 20px;
+        border-radius: 8px; 
+        background: #FF5400; 
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    .input-type button i{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .Popular-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 130px;
+     
+    }
+    
+    .Popular-text{
+        width: 720px;
+    }
+    .Popular-text h1{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+    .Popular-text p{
+        width: 577px;
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        padding-bottom: 25px;
+    }
+    .Popular-text li{
+        width: 577px;
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        padding-bottom: 25px;
+    }
+    
+    
+    button{
+        width: 174px;
+        height: 47px;
+        padding-left: 20px;
+        border-radius: 8px; 
+        background: #FF5400; 
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .Popular-img img{
+        width: 100%;
+        height: 500px;
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+    
+
+
 }
